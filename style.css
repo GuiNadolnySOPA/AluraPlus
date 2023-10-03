@@ -13,6 +13,8 @@ body {
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none !important;
+    list-style: none;
 }
 .principal {
     background-image: url("Background.png");
@@ -75,4 +77,54 @@ body {
     font-size: 48px;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
+}
+
+.dispositivos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dispositivos_lista {
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+}
+
+.dispositivos_titulo {
+    margin-bottom: 30px;
+}
+
+.image-icon {
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista_item {
+    margin-top: 20px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list-alura {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.list-alura li, .list-alura a {
+    color: white !important;
+    text-decoration: none;
 }
